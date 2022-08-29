@@ -12,9 +12,9 @@ The goal of the project is to build a fully functional replica of [Airbnb's webs
 
 ## The command interpreter
 
-To start using the shell you need to run this command:
+To start using the shell you need to run this command:<br />
     ```
       Some command here
-    ```
+    ```<br />
 And here below are the commands you need to know to use the shell.
 
