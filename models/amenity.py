@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-"""The `city` module
+"""The `amenity` module
 
-It defines one class, `City(),
+It defines one class, `Amenity(),
 which sub-classes the `BaseModel()` class.`
 """
 from models.base_model import BaseModel
 
 
-class City(BaseModel):
-    """A city in the application.
+class Amenity(BaseModel):
+    """An amenity provided by a place/house.
 
     Attributes:
         name
-        state_id
     """
+
     name = ""
-    state_id = ""
