@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines unittests for models/user.py.
-Unittest classes:
-    TestUser_instantiation
-    TestUser_save
-    TestUser_to_dict
+"""Defines unittests for models/user.py
+    Unittest classes:
+        TestUser_instantiation
+        TestUser_save
+        TestUser_to_dict
 """
 import os
 import models
@@ -90,7 +90,7 @@ class TestUser_instantiation(unittest.TestCase):
 
 
 class TestUser_save(unittest.TestCase):
-    """Unittests for testing save method of the  class."""
+    """Unittests for testing save method of the  class"""
 
     @classmethod
     def setUp(self):

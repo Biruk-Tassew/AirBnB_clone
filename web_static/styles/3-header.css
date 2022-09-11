@@ -1,9 +1,14 @@
 header {
-    height: 70px; 
+    background-color: #fff;
+    height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    background: white url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-position: 20px center;
-    flex-shrink: 0;
+}
+
+.logo {
+    background: url("../images/logo.png") no-repeat;
+    background-position: left;
+    display: block;
+    height: 100%;
+    margin-left: 20px;
 }

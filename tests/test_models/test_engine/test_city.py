@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines unittests for models/city.py.
+"""Defines unittests for models/city.py
 Unittest classes:
     TestCity_instantiation
     TestCity_save
@@ -141,7 +141,7 @@ class TestCity_save(unittest.TestCase):
 
 
 class TestCity_to_dict(unittest.TestCase):
-    """Unittests for testing to_dict method of the City class."""
+    """Unit-tests for testing to_dict method of the City class."""
 
     def test_to_dict_type(self):
         self.assertTrue(dict, type(City().to_dict()))
